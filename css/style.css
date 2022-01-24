@@ -4,6 +4,7 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
 .card-style{
     border-radius: 25px;
     background-color: #3F87F5;
@@ -26,4 +27,22 @@ body{
 
 footer{
     height: 280px;
+}
+
+@media only screen and (max-width: 688px) {
+    .img-height {
+        height: 250px;
+    }
+    .carousel-style h1 {
+        font-size: 22px;
+    }
+    .carousel-style p {
+        font-size: 13px;
+    }
+    footer>div {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        font-size: 14px;
+    }
 }
