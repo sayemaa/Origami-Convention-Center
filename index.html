@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Origami Convention Center</title>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/bc1289c198.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- border border-danger border-3 -->
+
+<body>
+    <header>
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container d-flex justify-content-center">
+                    <div>
+                        <a class="navbar-brand fw-bold" href="#">Origami Convention Center</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Subscribe</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <!-- Carousel -->
+        <section class="pb-5">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/banner-1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block container w-50">
+                            <h1>The Perfect Venue for your
+                                Next Event</h1>
+                            <p>Origami Convention Center is the venue where you will find all that you'll need for your
+                                dream of a grand celebration to come
+                                into reality.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/banner-2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block container w-50">
+                            <h1>Glamorous and Elegant Decorations</h1>
+                            <p>We will provide you with the most stylish and sophisticated decoration of your choice for
+                                all kinds
+                                of events. We have all the resources you'll need for your dream celebration.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/banner-3.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block container w-50">
+                            <h1>Delightful and Spacious Environment</h1>
+                            <p>Origami Convention Center is one of the most beautiful venues suitable for any kind of
+                                event. Our venue has a lot of picture-perfect spots for you to
+                                capture beautiful memories.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="toast align-items-center shadow-lg mt-3" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="d-flex">
+                    <div class="toast-body">
+                        <i class="fas fa-gift text-primary"></i> 20% off on next booking
+                    </div>
+                    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"
+                        aria-label="Close"></button>
+                </div>
+            </div>
+        </section>
+    </header>
+
+
+    <main>
+        <!-- Our Package -->
+        <section class="container py-3">
+            <h2 class="text-center fw-bold">Our Package</h2>
+            <div class="row row-cols-1 row-cols-md-4 g-4 py-5 d-flex align-items-center">
+                <!-- 1st card -->
+                <div class="col col-md-6 col-lg-3">
+                    <div class="card h-100 border-0">
+                        <div class="card-body pb-2">
+                            <h2 class="card-title lh-lg">$300</h2>
+                            <h3 class="lh-sm">Business fair</h3>
+                            <p class="card-text text-color">For most businesses event
+                                like book fair, craft fair.</p>
+                        </div>
+                        <ul class="list-group list-group-flush border-0">
+                            <li class="list-group-item border-0 text-color"><i class="far fa-check-circle"></i> Limited
+                                space
+                                access
+                            </li>
+                            <li class="list-group-item border-0 text-color"><i class="far fa-check-circle"></i> Security
+                                facility
+                            </li>
+                            <li class="list-group-item border-0 text-color"><i class="far fa-check-circle"></i> Event
+                                support</li>
+                            <li class="list-group-item border-0 text-color"><i class="far fa-check-circle"></i>
+                                Decoration design
+                            </li>
+                            <li class="list-group-item border-0 text-color"><i class="far fa-check-circle"></i> Per day
+                                bill</li>
+                        </ul>
+                        <div class="m-3 text-center">
+                            <button class="choose-plan-btn">Choose plan</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 2nd card -->
+                <div class="col col-md-6 col-lg-3">
+                    <div class="card h-100 border-0">
+                        <div class="card-body pb-2">
+                            <h2 class="card-title lh-lg">$500</h2>
+                            <h3 class="lh-sm">Wedding basic</h3>
+                            <p class="card-text text-color">For weddings with basic plan
+                                and limited item.</p>
+                        </div>
+                        <ul class="list-group list-group-flush border-0">
+                            <li class="list-group-item border-0 text-color"><i class="far fa-check-circle"></i> Full
+                                space access
+                            </li>
+                            <li class="list-group-item border-0 text-color"><i class="far fa-check-circle"></i> Food
+                                arrangement
+                            </li>
+                            <li class="list-group-item border-0 text-color"><i class="far fa-check-circle"></i>
+                                Management support
+                            </li>
+                            <li class="list-group-item border-0 text-color"><i class="far fa-check-circle"></i>
+                                Decoration design
+                            </li>
+                            <li class="list-group-item border-0 text-color"><i class="far fa-check-circle"></i> Billed
+                                as shift
+                            </li>
+                        </ul>
+                        <div class="m-3 text-center">
+                            <button class="choose-plan-btn">Choose plan</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 3rd card -->
+                <div class="col col-md-6 col-lg-3">
+                    <div class="card h-100 py-4 pt-3 text-white card-style border-0">
+                        <span class="position-absolute top-0 end-0 translate-middle badge rounded-pill bg-danger">
+                            HOT
+                        </span>
+                        <div class="card-body">
+                            <h2 class="card-title lh-lg">$800</h2>
+                            <h3 class="lh-sm">Wedding plus</h3>
+                            <p class="card-text">For most weddings with premium plans.</p>
+                        </div>
+                        <ul class="list-group list-group-flush border-0">
+                            <li class="list-group-item border-0 card-style text-white"><i
+                                    class="far fa-check-circle"></i>
+                                Full
+                                space access
+                            </li>
+                            <li class="list-group-item border-0 card-style text-white"><i
+                                    class="far fa-check-circle"></i>
+                                Dedicated team
+                            </li>
+                            <li class="list-group-item border-0 card-style text-white"><i
+                                    class="far fa-check-circle"></i>
+                                Buffet food
+                            </li>
+                            <li class="list-group-item border-0 card-style text-white"><i
+                                    class="far fa-check-circle"></i>
+                                Premium decoration
+                            </li>
+                            <li class="list-group-item border-0 card-style text-white"><i
+                                    class="far fa-check-circle"></i>
+                                Pay as plan
+                            </li>
+                        </ul>
+                        <div class="m-3 text-center">
+                            <button class="choose-plan-btn">Choose plan</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 4th card -->
+                <div class="col col-md-6 col-lg-3">
+                    <div class="card h-100 border-0">
+                        <div class="card-body pb-2">
+                            <h2 class="card-title lh-lg">$1200</h2>
+                            <h3 class="lh-sm">Corporate event</h3>
+                            <p class="card-text text-color">For most corporate business
+                                events and conferences.</p>
+                        </div>
+                        <ul class="list-group list-group-flush border-0">
+                            <li class="list-group-item border-0 text-color"><i class="far fa-check-circle"></i> Full
+                                space access
+                            </li>
+                            <li class="list-group-item border-0 text-color"><i class="far fa-check-circle"></i>
+                                Dedicated team
+                            </li>
+                            <li class="list-group-item border-0 text-color"><i class="far fa-check-circle"></i> Buffet
+                                food
+                            </li>
+                            <li class="list-group-item border-0 text-color"><i class="far fa-check-circle"></i> Premium
+                                decoration
+                            </li>
+                            <li class="list-group-item border-0 text-color"><i class="far fa-check-circle"></i> Pay as
+                                plan
+                            </li>
+                        </ul>
+                        <div class="m-3 text-center">
+                            <button class="choose-plan-btn">Choose plan</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- FAQ -->
+        <section class="container my-5">
+            <h2 class="text-center pb-5 fw-bold">Frequently Asked Questions</h2>
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class=" accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What’s the difference between event design and event planning?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body text-color">
+                                    Event design and event planning work hand in hand to deliver a successful
+                                    event.Events
+                                    by Knight offer tailor made events. This means we incorporate both event design and
+                                    event planning to create that perfect event.
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        How early do we need to start planning an event?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-color">
+                                        Time management is of utmost necessity when we're planning an event. So if we
+                                        decide
+                                        to hold an event, we need to start right away.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        What is your refund and cancellation policy?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body  text-color">
+                                        If you want to cancel your event, you need to inform us before the preparations
+                                        are
+                                        started. In that case, we will refund your payment immediately. But once the
+                                        preparations are started, it'll be too late for a refund.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        How do you keep budgets on track?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-color">
+                                        Our budget will vary depending on the time and season. 50% of the full payment
+                                        has
+                                        to be paid in advance while you book our venue. We hope you won't be
+                                        disappointed
+                                        with the budget and payment rules that we have set for planning events
+                                        successfully.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 my-3">
+                    <img src="images/faq.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact Us -->
+
+        <section class="container my-5">
+            <h2 class="text-center fw-bold">Contact Us</h2>
+            <div class="d-flex justify-content-center my-5">
+                <form class="w-75">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label fw-bold">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label fw-bold">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary rounded-pill px-5 fw-bold">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="mt-5 bg-dark d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-center">
+            <p class="text-white pt-4">© 2022 bike. All rights reserved</p>
+        </div>
+        <div class="row justify-content-around">
+            <p class="text-white">Get The App</p>
+            <a target="_blank" href="https://apps.apple.com/us/app/programming-hero-coding-fun/id1478201849"><img
+                    src="images/app-store.png" alt=""></a>
+            <br>
+            <br>
+            <a target="_blank"
+                href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp&hl=en&gl=US"><img
+                    src="images/google-play.png" alt=""></a>
+        </div>
+    </footer>
+
+
+    <script>
+        window.onload = (event) => {
+            let myAlert = document.querySelector('.toast');
+            let bsAlert = new bootstrap.Toast(myAlert);
+            bsAlert.show();
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

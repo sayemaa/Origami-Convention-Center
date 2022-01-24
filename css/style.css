@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.card-style{
+    border-radius: 25px;
+    background-color: #3F87F5;
+}
+
+.text-color{
+    color: #848199;
+}
+
+.choose-plan-btn{
+    background-color: #fff2fa;
+    color: #3F87F5;
+    font-weight: 700;
+    font-size: 15px;
+    width: 250px;
+    border: none;
+    border-radius: 25px;
+    padding: 13px 25px;
+}
+
+footer{
+    height: 280px;
+}
