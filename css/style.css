@@ -41,7 +41,7 @@ footer{
     .carousel-style p {
         font-size: 13px;
     }
-    footer>div {
+    footer > div {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
